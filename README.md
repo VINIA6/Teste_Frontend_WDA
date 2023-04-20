@@ -26,7 +26,7 @@ A construção em HTML e CSS puro para fim da criação de interfaces é de gran
 ### Dependencies
 
 <p>
-Iniciar a aplicação pela página HTMML a baixo.
+Iniciar a aplicação pela página HTML.
 
 ```
 Pag1.html
