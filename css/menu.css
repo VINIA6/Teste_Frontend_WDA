@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?famly=Open+Sans:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoi UI','Open Sans', sans-serif;
+}
+
+.sidebar .itens{
+    padding: 2rem 0rem 2rem;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+    background-color: #1A1A1A;
+    padding:.4rem .8rem;
+    transition: all 0.4s ease;
+}
+
+.sidebar.active ~ .main-content{
+    left: 250px;
+    width: calc(100%-250px);
+}
+
+.sidebar.active{
+    width: 250px;
+}
+
+.sidebar #btn{
+    position: absolute;
+    color: #FFFFFF;
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.sidebar.active #btn{
+    left: 10%;
+}
+
+.sidebar .user-hello{
+    padding: 3rem 0rem 1.15rem;
+    position: relative;
+    color:#FFFFFF ;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.sidebar.active .user-hello{
+    opacity: 1;
+}
+
+.sidebar .user-hello .bold{
+    
+    font-size:24px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sidebar .user{
+    padding-top: 3.3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.sidebar .user .user-img{
+    width:62px;
+    border-radius:100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1.5px solid #888888;
+    padding-bottom: 2rem;
+}
+
+.sidebar ul{
+    position:absolute;
+    left:0;
+    width:100%;
+}
+.sidebar ul li{
+    position: relative;
+    list-style-type: none;
+    height: 34px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.sidebar ul li a {
+    padding-left: 10px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover{
+    border-left: 2px solid #00A335;
+    background:#181E22;
+}
+
+.sidebar ul li a i{
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sidebar .title-icon{
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position:center;
+    display:block;
+    padding: 0 10px;
+    height:37px;
+    line-height:37px;
+    text-align: start;
+    white-space:nowrap;
+}
+
+.sidebar .title-icon{
+    opacity: 0;
+}
+
+.sidebar.active .title-icon{
+    opacity: 1;
+}
+

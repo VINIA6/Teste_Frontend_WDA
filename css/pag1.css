@@ -1,0 +1,226 @@
+.main-content{
+    width: calc(100% - 300px);
+    position: absolute;
+    left: 80px;
+    transition: all 0.4s ease;
+}
+
+.main-content .container{
+    left: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px 3px #00000008;
+    margin-bottom: 44px;
+}
+
+.main-content .container h1{
+    margin: 10px 10px 5px 10px;
+}
+
+.main-content .container img{
+    margin: 5px 10px 5px 10px;
+    width:54px;
+    border-radius:100%;
+} 
+
+.main-content .val-box{
+    /* height: 100%; */
+    margin-left: 50px;
+    padding: 5px 20px;
+    border-radius: 2px;
+    box-shadow:  2px 2px 2px  2px #00000029 ;
+}
+
+.main-content .val-box h3{
+    padding-left: 20px;
+    padding-top: 36px;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.main-content .val-box .tag1 i {
+    color: #404040;
+    padding: 35px 13px 10px 50px;
+}
+
+.main-content .val-box .tag1 .title-icon-info {
+    font-size:20px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+
+.box {
+    /* position: absolute; */
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 400px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    box-shadow:  2px 2px 2px 2px #00000029
+}
+
+.main-content .val-box .box .box-tags{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .to-hide {
+    opacity: 0;
+}
+
+.box .to-hide p{
+    color: #888888;
+    text-align: left;
+    font: normal normal normal 16px/21px Segoe UI;
+}
+
+.box .to-hide .p-to-hide-bottom{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .to-hide .p-to-hide-bottom a{
+    color: #87C984;
+    align-items: right;
+}
+
+.box .to-hide .p-to-hide-bottom p{
+    color: #888888;
+    text-align: left;
+    font: normal normal normal 16px/21px Segoe UI;
+
+}
+
+.box.active .to-hide{
+    opacity: 1;
+}
+
+.box.active{
+    color: #FFFFFF;
+    position: relative;
+    height: 20%;
+    border-radius: 2px;
+    box-shadow:  2px 2px 2px 2px #00000029;
+} 
+
+.main-content .val-box .box .tag1-1 h4{
+    top: 335px;
+    left: 514px;
+    width: 100%;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 20px/27px Segoe UI;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.main-content .val-box .box .tag1-1 p{
+    top: 362px;
+    left: 514px;
+    width: 170px;
+    height: 21px;
+    color: var(---neutral-color-dark-05);
+    text-align: left;
+    font: normal normal 600 16px/21px Segoe UI;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+
+.main-content .val-box .box .tag1-2 i{
+    /* Layout Properties */
+    width: 25px;
+    height: 20px;
+    color: #687980;
+    text-align: center;
+    padding-right: 7px;
+    line-height: 50px;
+}
+
+.main-content .val-box .box .tag1-2 .data{
+    color: #687980;
+    text-align: center;
+    padding-right: 24px;;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    font:  normal normal bold 17px/23px Segoe UI;    
+}
+
+.main-content .val-box .box .tag1-2 button{
+    
+    border: none;
+    color: #FFFFFF;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius:50px;
+}
+
+.main-content .val-box .box .tag1-2 .Pendente {
+    background-color: #3E5055; /* Green */
+    
+}
+
+.main-content .val-box .box .tag1-2 .Atendido {
+    background-color: #4CAF50; 
+}
+
+.main-content .val-box .box .tag1-2 .Negado {
+    background-color: #CC1414; /* Green */
+    padding: 7px 25px;    
+}
+
+.main-content .val-box table {
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.main-content .val-box .tabela td{
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.main-content .val-box .tabela table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.main-content .val-box .tabela td,th{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    font: normal normal 600 14px/19px Segoe UI;
+}
+
+.main-content .val-box .tabela th{    
+    background: #5D5D5D;
+    color:#FFFFFF
+} 
+ 
+.main-content .val-box .tabela  tr, td{
+    border:none;
+}
+
+.passador1{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    /*top: 40px; left: 40px; */
+    float:right;
+}
+
+.quadrado{
+    text-align: center;
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #707070;
+}
